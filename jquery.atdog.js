@@ -3,7 +3,7 @@
  * addog library for jquery
  */
 
-jQuery.atDog = function(attr, object) {
+atDog = function(attr, object) {
     if ($("#"+attr).length > 0)
     {
         for (var field in object)
